@@ -18,10 +18,10 @@
     <title>Howler Coffee Co. | Green Bay, WI</title>
 
     <!-- Link Thumbnail -->
-    <meta property="og:image" content="http://www.thegreenbayguy.com/img/thumbnail/default.jpg"/>
+    <meta property="og:image" content="#"/>
     
     <!--Website description -->
-    <meta name="description" content="Coming to Green Bay and looking to explore like a local? My Local's Guide allows you know the go-to places to eat, see, and drink." />
+    <meta name="description" content="#" />
 
 </head>
 <body>
@@ -39,171 +39,111 @@
         <div class="nav-list">
             <menu class="nav-section">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Contact</a></li>    
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#shop">Shop</a></li>
+                <li><a href="/#contact">Contact</a></li>    
             </menu>       
         </div>
         <div class="shopping-cart">
-            <img src="img/shopping-cart.png" alt="Shopping cart">
+            <img src="img/shopping-cart.png" alt="Shopping cart icon">
             <div class="item-counter">
-                <p>15</p>
+                
             </div>
         </div>
         <div class="shopping-cart-list">
-            <div class="items">
-                <div class="item">
-                    <img src="img/products/bucksaw-blend.jpg" alt="test">
-                    <div class="item-description">
-                    <p>Roast Name</p>
-                    <p>$25</p>
-                    </div>
-                    <div class="item-quantity">
-                    <input type="number" id="quantity" name="quantity" min="1" max="500" placeholder="1">
-                    <p class="remove">Remove</p>
-                    </div>
+            <div class="items"></div>
+                <div class="empty">
+                    <p>Your cart is empty.</p>
                 </div>
-
-                <div class="item">
-                    <img src="img/products/bucksaw-blend.jpg" alt="test">
-                    <div class="item-description">
-                    <p>Roast Name</p>
-                    <p>$25</p>
-                    </div>
-                    <div class="item-quantity">
-                    <input type="number" id="quantity" name="quantity" min="1" max="500" placeholder="1">
-                    <p class="remove">Remove</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="img/products/bucksaw-blend.jpg" alt="test">
-                    <div class="item-description">
-                    <p>Roast Name</p>
-                    <p>$25</p>
-                    </div>
-                    <div class="item-quantity">
-                    <input type="number" id="quantity" name="quantity" min="1" max="500" placeholder="1">
-                    <p class="remove">Remove</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="img/products/bucksaw-blend.jpg" alt="test">
-                    <div class="item-description">
-                    <p>Roast Name</p>
-                    <p>$25</p>
-                    </div>
-                    <div class="item-quantity">
-                    <input type="number" id="quantity" name="quantity" min="1" max="500" placeholder="1">
-                    <p class="remove">Remove</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="img/products/bucksaw-blend.jpg" alt="test">
-                    <div class="item-description">
-                    <p>Roast Name</p>
-                    <p>$25</p>
-                    </div>
-                    <div class="item-quantity">
-                    <input type="number" id="quantity" name="quantity" min="1" max="500" placeholder="1">
-                    <p class="remove">Remove</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="img/products/bucksaw-blend.jpg" alt="test">
-                    <div class="item-description">
-                    <p>Roast Name</p>
-                    <p>$25</p>
-                    </div>
-                    <div class="item-quantity">
-                    <input type="number" id="quantity" name="quantity" min="1" max="500" placeholder="1">
-                    <p class="remove">Remove</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="img/products/bucksaw-blend.jpg" alt="test">
-                    <div class="item-description">
-                    <p>Roast Name</p>
-                    <p>$25</p>
-                    </div>
-                    <div class="item-quantity">
-                    <input type="number" id="quantity" name="quantity" min="1" max="500" placeholder="1">
-                    <p class="remove">Remove</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="img/products/bucksaw-blend.jpg" alt="test">
-                    <div class="item-description">
-                    <p>Roast Name</p>
-                    <p>$25</p>
-                    </div>
-                    <div class="item-quantity">
-                    <input type="number" id="quantity" name="quantity" placeholder="1">
-                    <p class="remove">Remove</p>
-                    </div>
-                </div>
-                
-
-            </div>
 
             <button class="btn-primary btn-cart">
-                Test
+               Checkout
             </button>
         </div>
     </header>
 
-    <!-- Landing Page -->
-    <section class="section index-landing">
-        <h2>Freshly roasted coffee</h2>
-        <p>Straight to your door.</p>
+    <!--        Landing Page        -->
+    <section class="section landing-page">
+        <div class="container">
+            <h2>Freshly Roasted Coffee</h2>
+            <p>Roasted to order - delivered to your door.</p>
 
-        <form>
-            <button class="btn-primary btn-index">
-                Shop Now
+            <button class="btn-primary btn-landing-page" onclick="location.href='#shop'">
+                Shop
             </button>
-        </form>
+        </div>
     </section>
 
+    <!--        About Us Section      -->
+    <a class="anchor" id="about"></a>
     <section class="section about-section">
         
-        
-        <div class="about-image">
-            <img src="img/about-us.jpg" alt="Howler Coffee Roasters">
-        </div>
+        <div class="container">
+            <div class="about-img">
+                <img src="img/about-us.jpg" alt="Coffee roasters inspecting coffee after roasting">
+            </div>
+            <div class="about-bio">
+                <h3>About Us</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
 
-        <div class="about-bio">
-            <h2>About Us</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
 
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-
+            </div>
         </div>
     </section>
 
-    <section class="section newsletter-section">
-        <h3>Sign up for our weekly newsletter and receive 10% off your first order.</h3>
-
-        <form>
-            <input type="text" name="mail" placeholder="JustForShow@MyPortfolio.com" required>
-            
-            <button class="btn-primary btn-index">
-                Sign Up
-            </button>
-        </form>
-    </section>
-    
+    <a class="anchor" id="shop"></a>
     <section class="section shop-section">
         
+        <section class="shop-header">
+            <h3>How it works</h3>
+            <div class = "container">
+                <div>
+                    <img src="img/icon/purchase.png" alt="purchase icon">
+                    <p>Browse our catelog of roast options. Find the perfect coffee for you and make your purchase</p>
+                </div>
+
+                <div>
+                    <img src="img/icon/roast.png" alt="roast icon">
+                    <p>Once the order is received, we'll roast your coffee - fresh to order.</p>
+                </div>
+
+                <div>
+                    <img src="img/icon/ship.png" alt="deliver icon">
+                    <p>When your coffee has finished roasting, we'll deliver it to you. All local orders are delivered straight to your door - free.</p>
+                </div>
+            </div>
+        </section>
+        <section class="shop-body">
+            
+
+        </section>
     </section>
 
+    <a class="anchor" id="contact"></a>
+    <section class="section contact-section">
+        <h3>Let's Talk</h3>
+        <form class="contact-form" action="/php/contactform.php" method="post">
+            <input type="text" name="name" class="form" placeholder="*Name" required>
+            <input type="text" name="mail" class="form" placeholder="*E-mail" required>
+            <input type="text" name="subject" class="form" placeholder="*Subject" required>
+            <textarea name="message" placeholder="*Message" class="form" required></textarea>
+            <button class="btn-primary btn-contact" type="submit" name="submit">Send message</button>
+            
+        </form>
+    </section>
+    <footer>
+        <h3>Follow us</h3>
+        <section class="socials">
+            <a href="https://www.facebook.com/HowlerCoffeeCo" target="_blank"><img src="/img/socials/facebook.png" alt="Facebook icon"></a>
+            <a href="https://www.instagram.com/howlercoffeeco/" target="_blank"><img src="/img/socials/instagram.png" alt="Instagram icon"></a>
+        </section>
 
-    
+        <p>&copy; 2021 Howler Coffee Co</p>
+
+
+
+    </footer>
     <script src="js/main.js"></script>
 </body>
 </html>
